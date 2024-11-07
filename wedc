@@ -1,0 +1,23 @@
+div {
+    width: 100%; /* Default to one div per row */
+    /* Other default mobile styles go here */
+}
+
+/* Tablet View - 772px */
+@media (min-width: 772px) {
+    div {
+        width: 45%; /* Two divs per row */
+        /* Add necessary adjustments, such as float or flex properties */
+    }
+    img {
+        max-height: 30vh; /* Limit image height */
+    }
+}
+
+/* Large Screen View - 998px */
+@media (min-width: 998px) {
+    div {
+        width: 30%; /* Three divs per row */
+        /* Adjust layout properties as needed */
+    }
+}
